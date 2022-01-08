@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --cor0: #98c6f4;
+  --cor1: #4ea0f2;
+  --cor2: #3d7ebf;
+  --cor3: #264d75;
+  --cor4: #475d73;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--cor4);
+}
+
+header {
+  font-family: 'The Nautigal', Arial, Helvetica, sans-serif;
+  background-color: var(--cor3);
+  max-width: 900px;
+  margin: 0px auto;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+h1 {
+  color: var(--cor1);
+  font-size: 5.1em;
+  font-weight: bold;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.253);
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.199);
+}
+
+main {
+  background-color: var(--cor2);
+  max-width: 900px;
+  margin: 0px auto;
+  padding: 20px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+h2 {
+  font-family: 'The Nautigal', Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.212);
+  color: var(--cor1);
+  text-align: center;
+  font-size: 4.5em;
+}
+h2.corzero {
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.212);
+  color: var(--cor0);
+}
+
+img.perfil {
+  display: block;
+  border-radius: 50%;
+  margin: 50px auto;
+}
+
+p {
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  text-align: justify;
+  color: var(--cor0);
+  font-size: 1.5em;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
+}
+
+footer {
+  background-color: var(--cor3);
+  max-width: 900px;
+  padding: 20px;
+  margin: 0px auto;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.253);
+}
+
+ul {
+  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #98c6f4;
+  text-align: center;
+  list-style-type: none;
+  padding: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--cor1);
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--cor0);
+}
