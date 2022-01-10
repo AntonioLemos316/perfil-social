@@ -19,6 +19,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  line-height: 2em;
 }
 
 body {
@@ -53,11 +54,10 @@ main {
 
 h2 {
   font-family: var(--fonte02);
-  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.212);
-  color: var(--cor1);
   text-align: center;
   font-size: 1.4em;
 }
+
 h2.corzero {
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.212);
   color: var(--cor0);
@@ -70,23 +70,12 @@ img.perfil {
 }
 
 p {
-  background-color: rgba(0, 0, 0, 0.233);
-  border: 1px rgba(0, 0, 0, 0.192) solid;
-  border-radius: 5px;
-  padding: 15px;
+  padding: 10px;
   font-family: var(--fonte03);
   text-align: justify;
   color: var(--cor0);
   font-size: 1em;
-  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
-}
-
-footer {
-  background-color: var(--cor3);
-  max-width: 900px;
-  padding: 10px;
-  margin: 0px auto;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.253);
+  text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
 }
 
 ul {
@@ -95,15 +84,30 @@ ul {
   color: #98c6f4;
   text-align: center;
   list-style-type: none;
-  padding: 25px;
+  padding: 10px;
 }
 
 a {
   text-decoration: none;
-  color: var(--cor1);
+  color: var(--cor4);
 }
 
 a:hover {
   text-decoration: underline;
   color: var(--cor0);
+}
+
+aside {
+  background-color: var(--cor02);
+  padding: 40px;
+  margin: 0px auto;
+}
+
+footer > p {
+  max-width: 920px;
+  margin: 0px auto;
+  background-color: rgba(0, 0, 0, 0.596);
+  border: 1px solid rgba(0, 0, 0, 0.253);
+  text-align: center;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.116);
 }
