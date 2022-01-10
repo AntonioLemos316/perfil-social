@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: var(--cor4);
+  background-image: linear-gradient(to right, var(--cor2), var(--cor4));
 }
 
 header {
@@ -66,10 +66,14 @@ img.perfil {
 }
 
 p {
+  background-color: rgba(0, 0, 0, 0.233);
+  border: 1px rgba(0, 0, 0, 0.192) solid;
+  border-radius: 5px;
+  padding: 15px;
   font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
   text-align: justify;
   color: var(--cor0);
-  font-size: 1.5em;
+  font-size: 1.4em;
   font-weight: 200;
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
 }
@@ -77,7 +81,7 @@ p {
 footer {
   background-color: var(--cor3);
   max-width: 900px;
-  padding: 20px;
+  padding: 10px;
   margin: 0px auto;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.253);
 }
