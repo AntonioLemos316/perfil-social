@@ -37,7 +37,7 @@ header {
 
 h1 {
   color: var(--cor1);
-  font-size: 3em;
+  font-size: 1.6em;
   font-weight: bolder;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.253);
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.199);
@@ -56,7 +56,7 @@ h2 {
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.212);
   color: var(--cor1);
   text-align: center;
-  font-size: 2.5em;
+  font-size: 1.4em;
 }
 h2.corzero {
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.212);
@@ -77,7 +77,7 @@ p {
   font-family: var(--fonte03);
   text-align: justify;
   color: var(--cor0);
-  font-size: 1.1em;
+  font-size: 1em;
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
 }
 
