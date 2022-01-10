@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
   --cor0: #98c6f4;
@@ -10,6 +10,10 @@
   --cor2: #3d7ebf;
   --cor3: #264d75;
   --cor4: #475d73;
+
+  --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte02: 'Passion One', cursive;
+  --fonte03: 'Sriracha', cursive;
 }
 
 * {
@@ -22,7 +26,7 @@ body {
 }
 
 header {
-  font-family: 'The Nautigal', Arial, Helvetica, sans-serif;
+  font-family: var(--fonte03);
   background-color: var(--cor3);
   max-width: 900px;
   margin: 0px auto;
@@ -33,8 +37,8 @@ header {
 
 h1 {
   color: var(--cor1);
-  font-size: 5.1em;
-  font-weight: bold;
+  font-size: 3em;
+  font-weight: bolder;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.253);
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.199);
 }
@@ -48,11 +52,11 @@ main {
 }
 
 h2 {
-  font-family: 'The Nautigal', Arial, Helvetica, sans-serif;
+  font-family: var(--fonte02);
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.212);
   color: var(--cor1);
   text-align: center;
-  font-size: 4.5em;
+  font-size: 2.5em;
 }
 h2.corzero {
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.212);
@@ -70,11 +74,10 @@ p {
   border: 1px rgba(0, 0, 0, 0.192) solid;
   border-radius: 5px;
   padding: 15px;
-  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  font-family: var(--fonte03);
   text-align: justify;
   color: var(--cor0);
-  font-size: 1.4em;
-  font-weight: 200;
+  font-size: 1.1em;
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.164);
 }
 
@@ -87,7 +90,7 @@ footer {
 }
 
 ul {
-  font-family: 'Roboto Slab', Arial, Helvetica, sans-serif;
+  font-family: var(--fonte03);
   font-size: 1em;
   color: #98c6f4;
   text-align: center;
