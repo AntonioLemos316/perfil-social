@@ -10,6 +10,8 @@
   <body>
     <header>
       <h1>Minhas redes sociais</h1>
+      <div id="thora">Resultado</div>
+      <div id="res">Resultado</div>
     </header>
     <main>
       <h2 class="corzero">Quem sou eu?</h2>
@@ -38,7 +40,7 @@
         </li>
       </ul>
       <aside>
-        <h2 class="corzero">Links de projetos e exercícios</h2>
+        <h2 class="corzero">Links de exercícios</h2>
         <ul>
           <li>
             <a href="https://antoniolemos316.github.io/projeto-android/" target="_blank"
@@ -48,11 +50,6 @@
           <li>
             <a href="https://antoniolemos316.github.io/projeto-cordel/" target="_blank"
               >&#x1F517 Estudo do Projeto Cordel &#x1F517</a
-            >
-          </li>
-          <li>
-            <a href="https://antoniolemos316.github.io/perfil-social/"
-              >&#x1F517 Estudo do Projeto mídias sociais &#x1F517</a
             >
           </li>
         </ul>
@@ -68,5 +65,24 @@
         >
       </p>
     </footer>
+    
+    <script>
+      let agora = new Date()
+      let hora = agora.getHours()
+      let res = window.document.querySelector('div#res')
+      let thora = window.document.querySelector('div#thora')
+      if (hora < 5) {
+        res.innerHTML = `Boa madrugada! &#x1F311`
+      } else if (hora < 12) {
+        res.innerHTML = `Bom dia! &#x1F305`
+      } else if (hora < 18) {
+        res.innerHTML = `Boa tarde! &#x1F31E`
+      } else if (hora <= 24) {
+        res.innerHTML = `Boa noite! &#x1F311`
+      } else {
+        res.innerHTML = `[ERRO] Horário não reconhecido!`
+      }
+      thora.innerHTML = `São exatamente ${hora} horas!`
+    </script>
   </body>
 </html>

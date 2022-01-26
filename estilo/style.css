@@ -29,6 +29,7 @@ body {
 header {
   font-family: var(--fonte03);
   background-color: var(--cor3);
+  color: var(--cor0);
   max-width: 900px;
   margin: 0px auto;
   padding: 20px;
@@ -37,11 +38,15 @@ header {
 }
 
 h1 {
-  color: var(--cor1);
+  margin-top: -20px;
   font-size: 1.6em;
   font-weight: bolder;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.253);
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.199);
+}
+
+div {
+  margin-top: 10px;
 }
 
 main {
