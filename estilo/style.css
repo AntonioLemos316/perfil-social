@@ -5,11 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-  --cor0: #98c6f4;
-  --cor1: #4ea0f2;
-  --cor2: #3d7ebf;
-  --cor3: #264d75;
-  --cor4: #475d73;
+  --cor0: #000CF0;
+  --cor1: #F0B397;
+  --cor2: #F0B397;
+  --cor3: #F0B397;
+  --cor4: #9AA695;
+  ;
 
   --fonte01: Verdana, Geneva, Tahoma, sans-serif;
   --fonte02: 'Passion One', cursive;
@@ -23,7 +24,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right, var(--cor2), var(--cor4));
+  background-image: linear-gradient(to right, var(--cor1), var(--cor1));
 }
 
 header {
@@ -74,7 +75,7 @@ img.perfil {
 p {
   padding: 2px;
   font-family: var(--fonte03);
-  text-align: justify;
+  text-align: center;
   color: var(--cor0);
   font-size: 1em;
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.192);
@@ -83,7 +84,7 @@ p {
 ul {
   font-family: var(--fonte03);
   font-size: 1em;
-  color: #98c6f4;
+  color: var(--cor0);
   text-align: center;
   list-style-type: none;
   padding: 10px;
@@ -91,7 +92,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--cor4);
+  color: var(--cor0);
 }
 
 a:hover {
@@ -109,7 +110,7 @@ footer > p {
   max-width: 900px;
   padding: 20px;
   margin: 0px auto;
-  background-color: rgba(0, 0, 0, 0.596);
+  background-color: var(1);
   border: 1px solid rgba(0, 0, 0, 0.253);
   text-align: center;
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.116);
