@@ -5,11 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-  --cor0: #FE0000;
-  --cor1: #F5DBCB;
-  --cor2: #F5DBCB;
-  --cor3: #F5DBCB;
-  --cor4: #F5DBCB; 
+  --cor0: #F5DBCB;
+  --cor1: #FE0000; 
+  --cor2: #FE0000;
+  --cor3: #FE0000;
+  --cor4: #FE0000; 
 
   --fonte01: Verdana, Geneva, Tahoma, sans-serif;
   --fonte02: 'Passion One', cursive;
