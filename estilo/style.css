@@ -5,12 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-  --cor0: #000CF0;
-  --cor1: #F0B397;
-  --cor2: #F0B397;
-  --cor3: #F0B397;
-  --cor4: #9AA695;
-  ;
+  --cor0: #FE0000;
+  --cor1: #F5DBCB;
+  --cor2: #F5DBCB;
+  --cor3: #F5DBCB;
+  --cor4: #F5DBCB; 
 
   --fonte01: Verdana, Geneva, Tahoma, sans-serif;
   --fonte02: 'Passion One', cursive;
@@ -24,13 +23,13 @@
 }
 
 body {
-  background-color: var(--cor1);
+  background-color: var(--cor4);
 }
 
 header {
   font-family: var(--fonte03);
-  background-color: var(--cor3);
-  color: var(--cor0);
+  background-color: var(--cor0);
+  color: var(--cor1);
   max-width: 900px;
   margin: 0px auto;
   padding: 20px;
@@ -47,7 +46,7 @@ h1 {
 }
 
 main {
-  background-color: var(--cor2);
+  background-color: var(--cor0);
   max-width: 900px;
   margin: 0px auto;
   padding: 20px;
@@ -63,7 +62,7 @@ h2 {
 
 h2.corzero {
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-  color: var(--cor0);
+  color: var(--cor1);
 }
 
 img.perfil {
@@ -76,7 +75,7 @@ p {
   padding: 2px;
   font-family: var(--fonte03);
   text-align: center;
-  color: var(--cor0);
+  color: var(--cor1);
   font-size: 1em;
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
@@ -84,7 +83,7 @@ p {
 ul {
   font-family: var(--fonte03);
   font-size: 1em;
-  color: var(--cor0);
+  color: var(--cor1);
   text-align: center;
   list-style-type: none;
   padding: 10px;
@@ -92,12 +91,12 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--cor0);
+  color: var(--cor1);
 }
 
 a:hover {
   text-decoration: underline;
-  color: var(--cor0);
+  color: var(--cor1);
 }
 
 aside {
@@ -110,7 +109,7 @@ footer > p {
   max-width: 900px;
   padding: 20px;
   margin: 0px auto;
-  background-color: var(1);
+  background-color: var(--cor0);
   border: 1px solid rgba(0, 0, 0, 0.1);
   text-align: center;
   box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.1);
