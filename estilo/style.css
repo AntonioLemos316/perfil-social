@@ -5,11 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 :root {
-  --cor0: #F5DBCB;
+  --cor0: #f5dbcbea;
   --cor1: #FE0000; 
   --cor2: #FE0000;
   --cor3: #FE0000;
-  --cor4: #FE0000; 
+  --cor4: #b12121; 
+  --cor5: #000000;
 
   --fonte01: Verdana, Geneva, Tahoma, sans-serif;
   --fonte02: 'Passion One', cursive;
@@ -29,7 +30,7 @@ body {
 header {
   font-family: var(--fonte03);
   background-color: var(--cor0);
-  color: var(--cor1);
+  color: var(--cor5);
   max-width: 900px;
   margin: 0px auto;
   padding: 20px;
@@ -62,7 +63,7 @@ h2 {
 
 h2.corzero {
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
-  color: var(--cor1);
+  color: var(--cor5);
 }
 
 img.perfil {
@@ -75,7 +76,7 @@ p {
   padding: 2px;
   font-family: var(--fonte03);
   text-align: center;
-  color: var(--cor1);
+  color: var(--cor5);
   font-size: 1em;
   text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
 }
@@ -83,7 +84,7 @@ p {
 ul {
   font-family: var(--fonte03);
   font-size: 1em;
-  color: var(--cor1);
+  color: var(--cor5);
   text-align: center;
   list-style-type: none;
   padding: 10px;
