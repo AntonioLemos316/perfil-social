@@ -1,77 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Social</title>
-    <link rel="stylesheet" href="estilo/style.css" />
-  </head>
-  <body>
-    <header>
-      <h1 id="res">Resultado</h1>
-      <div id="thora">Resultado</div>
-    </header>
-    
-    <main>
-      <h2 class="corzero">Quem sou eu?</h2>
-      <img src="imagens/perfil.jpg" class="perfil" alt="Foto do Perfil" />
-      <p>
-        Meu nome é <strong><a href="https://github.com/AntonioLemos316" target="_blank">Antônio Marques</a></strong>, atualmente no 2º semestre de Desenvolvimento de Sistemas no Grau Técnico no qual aprendi, lógica de programação com visualG/Java, introdução a Banco de dados com MySQL e vimos algumas arquiteturas de software como a arquitetura MVC.
-      </p>
-      <h2 class="corzero">Links de Projetos e Exercícios </h2>
-        <ul>
-          <li><a href="https://github.com/AntonioLemos316/DepositoLuna" target="_blank">&#x1F517 Projeto de Deposito em JAVA &#x1F517</a>
-          </li>
-          <li><a href="https://github.com/AntonioLemos316/com.EmpresaSaxum" target="_blank">&#x1F517 Trabalho do Grau Técnico em JAVA &#x1F517</a>
-          </li>
-          <li>
-            <a href="https://antoniolemos316.github.io/projeto-android/" target="_blank"
-              >&#x1F517 Ex: Android em HTML5, CSS3 e JS &#x1F517</a>
-          </li>
-          <li>
-            <a href="https://antoniolemos316.github.io/projeto-cordel/" target="_blank"
-              >&#x1F517 Ex: Cordel em HTML5, CSS3 e JS &#x1F517</a>
-          </li>
-        </ul>
-      <aside>
-        <h2 class="corzero">Como falar comigo?</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social</title>
+  <link rel="stylesheet" href="estilo/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1 id="res">Resultado</h1>
+    <div id="thora">Resultado</div>
+  </header>
+
+  <main>
+    <h2 class="corzero">Quem sou eu?</h2>
+    <img src="imagens/perfil.jpg" class="perfil" alt="Foto do Perfil" />
+    <p>
+      Meu nome é <strong><a href="https://github.com/AntonioLemos316" target="_blank">Antônio Marques</a></strong>,
+      atualmente no 2º semestre de Desenvolvimento de Sistemas no Grau Técnico, no qual aprendi, lógica de programação
+      com visualG/Java, introdução a Banco de dados com MySQL e vimos algumas arquiteturas de software como a MVC. Tenho
+      conhecimento básico em HTML5, CSS3 e JS, estou começando a estudar o framework Ionic.
+    </p>
+    <h2 class="corzero">Links de Projetos e Exercícios </h2>
+    <ul>
+      <li><a href="https://github.com/AntonioLemos316/DepositoLuna" target="_blank">&#x1F517 CRUD simples em JAVA com
+          MySQL &#x1F517</a>
+      </li>
+      <li><a href="https://github.com/AntonioLemos316/com.EmpresaSaxum" target="_blank">&#x1F517 Trabalho do Grau
+          Técnico em JAVA &#x1F517</a>
+      </li>
+      <li>
+        <a href="https://antoniolemos316.github.io/projeto-android/" target="_blank">&#x1F517 Atividade em HTML5, CSS3
+          e JS &#x1F517</a>
+      </li>
+      <li>
+        <a href="https://antoniolemos316.github.io/projeto-cordel/" target="_blank">&#x1F517 Atividade em HTML5, CSS3 e
+          JS &#x1F517</a>
+      </li>
+    </ul>
+    <aside>
+      <h2 class="corzero">Como falar comigo?</h2>
       <ul>
         <li>
-          <a href="https://www.linkedin.com/in/antonio-marques-3572b7235/" target="_blank"><img src="imagens/icone-linkedin.png" alt="Icone do Linkedin"> LinkedIn /Antônio-Marques</a> 
+          <a href="https://www.linkedin.com/in/antonio-marques-3572b7235/" target="_blank"><img
+              src="imagens/icone-linkedin.png" alt="Icone do Linkedin"> LinkedIn /Antônio-Marques</a>
         </li>
         <li>
           <a href="https://github.com/AntonioLemos316" target="_blank"><img src="imagens/icone-github.png"
-            alt="Icone do GitHub"/> GitHub /AntonioLemos316</a> 
+              alt="Icone do GitHub" /> GitHub /AntonioLemos316</a>
         </li>
       </ul>
-      </aside>
-    </main>
+    </aside>
+  </main>
 
-    <footer>
-      <p>
-        Agradecimento em especial ao <a href="https://www.cursoemvideo.com/" target="_blank">CursoemVideo</a>
-        e ao Professor <a href="https://github.com/gustavoguanabara" target="_blank">Gustavo Guanabara</a>
-      </p>
-    </footer>
-    
-    <script>
-      let agora = new Date()
-      let hora = agora.getHours()
-      let res = window.document.querySelector('h1#res')
-      let thora = window.document.querySelector('div#thora')
-      if (hora < 5) {
-        res.innerHTML = `Seja Bem vindo(a), Boa madrugada! &#x1F311`
-      } else if (hora < 12) {
-        res.innerHTML = `Seja bem vindo(a), Bom dia! &#x1F305`
-      } else if (hora < 18) {
-        res.innerHTML = `Seja Bem vindo(a), Boa tarde! &#x1F31E`
-      } else if (hora <= 24) {
-        res.innerHTML = `Seja Bem vindo(a), Boa noite! &#x1F311`
-      } else {
-        res.innerHTML = `[ERRO] Horário não reconhecido!`
-      }
-      thora.innerHTML = `Sempre é hora de estudar!`
-    </script>
-  </body>
+  <footer>
+    <p>
+      Agradecimento em especial ao <a href="https://www.cursoemvideo.com/" target="_blank">CursoemVideo</a>
+      e ao Professor <a href="https://github.com/gustavoguanabara" target="_blank">Gustavo Guanabara</a>
+    </p>
+  </footer>
+
+  <script>
+    let agora = new Date()
+    let hora = agora.getHours()
+    let res = window.document.querySelector('h1#res')
+    let thora = window.document.querySelector('div#thora')
+    if (hora < 5) {
+      res.innerHTML = `Seja Bem vindo(a), Boa madrugada! &#x1F311`
+    } else if (hora < 12) {
+      res.innerHTML = `Seja bem vindo(a), Bom dia! &#x1F305`
+    } else if (hora < 18) {
+      res.innerHTML = `Seja Bem vindo(a), Boa tarde! &#x1F31E`
+    } else if (hora <= 24) {
+      res.innerHTML = `Seja Bem vindo(a), Boa noite! &#x1F311`
+    } else {
+      res.innerHTML = `[ERRO] Horário não reconhecido!`
+    }
+    thora.innerHTML = `Sempre é hora de estudar!`
+  </script>
+</body>
+
 </html>
